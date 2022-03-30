@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="60dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:src="@drawable/sims"></de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+            android:text="RealTheSims4"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="4dp"
+            android:layout_height="68dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            app:srcCompat="@drawable/dots" />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="161dp">
+        >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_marginBottom="100dp"
+            app:srcCompat="@drawable/post" />
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="310dp">
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:background="@color/white"
+            app:srcCompat="@drawable/like" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="57dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginLeft="5dp"
+            app:srcCompat="@drawable/comment" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:background="@color/white"
+            android:layout_marginLeft="5dp"
+            app:srcCompat="@drawable/share" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="200dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            app:srcCompat="@drawable/save" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="340dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="5,927 likes"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="360dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RealTheSims4"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="Sul Sul!"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="380dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="view all 1,297 comments"></TextView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="420dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:src="@drawable/profile"></de.hdodenhof.circleimageview.CircleImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="add comment..."
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="15dp">
+    </TextView>
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>
